@@ -20,6 +20,9 @@ const ProfilePage = () => {
   }
 };
 
+console.log("createdAt:", authUser.createdAt);
+console.log("authUser:", authUser);
+
 
   return (
     <div className="h-screen pt-20">
